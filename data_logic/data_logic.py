@@ -1,10 +1,5 @@
 import logging
-import os
-import oracledb
-import json
 # import data_upload.cache as cache_data
-import time
-from datetime import datetime
 # from .file_util import FileUtil
 
 class Data_logic:
