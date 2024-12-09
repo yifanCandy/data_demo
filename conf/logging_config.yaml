@@ -14,7 +14,7 @@ handlers:
     class: logging.FileHandler
     level: INFO
     formatter: simple
-    filename: "data_migration.log"
+    filename: "data_demo.log"
     encoding: utf-8
 loggers:
   data_upload:

@@ -6,9 +6,10 @@ from data_logic import *
 
 class MainEntry:
     def __init__(self):
-        self.initlog()
-        self.data_logic = Data_logic(self.logger)
-
+        print('enter into __init__.')
+        # self.initlog()
+        # self.data_logic = Data_logic(self.logger)
+    '''
     def initlog(self):
         print('enter into initlog.')
         with open('./conf/logging_config.yaml', 'r', encoding='utf-8') as file:
@@ -19,14 +20,13 @@ class MainEntry:
     
     def demo_test(self, config):  
         self.data_logic.demo_test(config)
+    '''
 
 
 # business main
 def main():
-    mainEntry = MainEntry()
-    config = configparser.ConfigParser()
-    config.read("./conf/conf.ini")
-    mainEntry.demo_test(config)
+    MainEntry()
+    print('this is demo test.')
       
 
 if __name__ == "__main__":
