@@ -1,5 +1,3 @@
-import logging
-import logging.config
 import time
 from datetime import datetime
 
@@ -19,7 +17,6 @@ def main():
     main_instance.demo_test()
 
 if __name__ == "__main__":
-    # main_api_service()
     main()
     
 
